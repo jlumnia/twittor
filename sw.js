@@ -6,7 +6,9 @@ const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
-    '/',
+    // El slah / sirve solo en local, no en el servidor
+    //'/',
+
     'index.html',
     'img/favicon.ico',
     'css/style.css',
